@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
 
-    const response = await fetch('https://chatgptamvinai.onrender.com', {
+    const response = await fetch('https://amvin-gpt-ai.onrender.com', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
